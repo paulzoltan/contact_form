@@ -15,6 +15,6 @@ class MainController extends AbstractController
   {
 
 
-    return new Response('ASDF');
+    return $this->render('app/asdf.html.twig');
   }
 }
