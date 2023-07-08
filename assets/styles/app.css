@@ -2,3 +2,8 @@
 body {
   background-color: lightgray;
 }
+
+/* .form-label.required:after {
+  content: '*';
+  color: red;
+} */
