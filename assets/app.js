@@ -18,3 +18,4 @@ require('bootstrap')
 // require('bootstrap/js/dist/popover');
 
 require('./js/validation')
+require('./js/preventMultiSubmit')
