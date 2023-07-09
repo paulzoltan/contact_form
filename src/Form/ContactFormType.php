@@ -24,10 +24,7 @@ class ContactFormType extends AbstractType
           'label' => 'Neved',
           'constraints' => [
             new NotBlank(message: 'Hiba! Kérjük töltsd ki az összes mezőt!'),
-          ],
-          'attr' => [
-            'oninvalid' => 'validate(this)'
-          ],
+          ]
         ]
       )
       ->add(
@@ -38,10 +35,7 @@ class ContactFormType extends AbstractType
           'constraints' => [
             new NotBlank(message: 'Hiba! Kérjük töltsd ki az összes mezőt!'),
             new Email(message: 'Hiba! Az email cím nem érvényes'),
-          ],
-          'attr' => [
-            'oninvalid' => 'validate(this)'
-          ],
+          ]
         ]
       )
       ->add(
@@ -51,10 +45,7 @@ class ContactFormType extends AbstractType
           'label' => 'Üzenet szövege',
           'constraints' => [
             new NotBlank(message: 'Hiba! Kérjük töltsd ki az összes mezőt!'),
-          ],
-          'attr' => [
-            'oninvalid' => 'validate(this)'
-          ],
+          ]
         ]
       );
   }
