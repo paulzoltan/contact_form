@@ -1,10 +1,10 @@
 {% extends 'base.html.twig' %}
 {% block body %}
-  <div class="container">
-    <h1>Írj Nekünk</h1>
+<div class="form-box">
+  <h1 class="mb-3">Írj Nekünk</h1>
     {{ form_start(contactForm) }}
       {{ form_widget(contactForm) }}
-      <button type="submit" class="btn btn-primary">Elküld</button>
+      <button type="submit" class="btn btn-dark w-100 fw-bold">Elküld</button>
     {{ form_end(contactForm) }}
   </div>
 {% endblock %}

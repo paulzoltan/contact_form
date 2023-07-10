@@ -19,6 +19,7 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "@fontsource/poppins": "^5.0.5",
         "jquery": "^3.7.0"
     }
 }

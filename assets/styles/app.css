@@ -1,9 +1,41 @@
 @import '~bootstrap';
+@import '@fontsource/poppins';
+
 body {
-  background-color: lightgray;
+  background: #5d4157; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a8caba,
+    #5d4157
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a8caba,
+    #5d4157
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* .form-label.required:after {
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
+  margin-top: 50px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+input,
+textarea {
+  font-family: Poppins;
+  width: 100%;
+}
+
+/* .form-label.required:after { 
   content: '*';
   color: red;
 } */
